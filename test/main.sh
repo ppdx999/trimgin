@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 root_dir=$(dirname $(cd $(dirname $0) && pwd))
 test_dir=$root_dir/test
 
@@ -35,5 +37,12 @@ run_test() {
 }
 
 run_test $test_dir/empty
+run_test $test_dir/un_trimmable
+run_test $test_dir/leading_blank
+run_test $test_dir/trailing_blank
+run_test $test_dir/leading_and_trailing_blank
+run_test $test_dir/leading_empty_lines
+run_test $test_dir/trailing_empty_lines
+run_test $test_dir/leading_and_trailing_empty_lines
 
 printf "\033[1;32mAll tests passed\033[0m\n"

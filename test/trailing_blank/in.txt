@@ -1,0 +1,1 @@
+trailing blank will be trimmed	 

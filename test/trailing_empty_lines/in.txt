@@ -1,0 +1,4 @@
+Trailing empty lines will be removed.
+
+ 
+

@@ -1,0 +1,1 @@
+text that do not include any leading or trailing blanks remain same as it is
