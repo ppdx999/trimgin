@@ -1,0 +1,23 @@
+Usage: trimgin [FILE]
+
+Remove leading and trailing whitespace from text.
+If FILE is not provided, read from stdin.
+
+For example:
+
+```text.txt
+
+
+Hi there!
+We have two blank lines above and below this text.
+And this space will be removed by 'trimgin'.
+
+
+```
+
+```terminal
+$ trimgin text.txt
+Hi there!
+We have two blank lines above and below this text.
+And this space will be removed by 'trimgin'.
+```
