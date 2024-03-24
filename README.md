@@ -3,7 +3,8 @@ Small Command to remove leading and trailing whitespace from text.
 
 # Usage
 
-```text.txt
+```terminal
+$ cat text.txt
 
 
 Hi there!
