@@ -1,7 +1,12 @@
 [package]
 name = "trimgin"
-version = "0.1.0"
+version = "1.0.0"
 edition = "2021"
+license = "MIT"
+authors = ["Fujis ppdx999@gmail.com"]
+description = "Small Command to remove leading and trailing whitespace from text."
+repository = "https://github.com/ppdx999/trimgin"
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
